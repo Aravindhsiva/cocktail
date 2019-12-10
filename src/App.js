@@ -1,26 +1,32 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import Header from "./components/Header";
+import Form from "./components/Form";
+import "font-awesome/css/font-awesome.min.css";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  state = {
+    location: ""
+  };
+  changeHandler = event => {
+    this.setState({
+      location: event.target.value
+    });
+  };
+  handleClick = data => {
+    console.log(data);
+  };
+  render() {
+    return (
+      <div className="container">
+        <Header />
+        <Form
+          onChange={this.changeHandler}
+          location={this.state.location}
+          handleClick={this.handleClick}
+        />
+      </div>
+    );
+  }
 }
 
 export default App;
