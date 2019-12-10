@@ -8,7 +8,7 @@ class Form extends Component {
   getWeather = () => {
     const { location } = this.props;
     if (location !== "") {
-      const url = `http://api.weatherstack.com/current?access_key=2ab63a0ce240fa6b0113e5c514314e39&query=${location}`;
+      const url = `https://api.weatherstack.com/current?access_key=2ab63a0ce240fa6b0113e5c514314e39&query=${location}`;
       fetch(url)
         .then(res => res.json())
         .then(data => {
