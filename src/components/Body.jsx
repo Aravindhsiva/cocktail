@@ -53,8 +53,7 @@ class Body extends Component {
     const { cocktailData } = this.state;
     const styles = {
       height: "300px",
-      width: "400px",
-      marginLeft: "25%"
+      width: "400px"
     };
     return (
       <div className="container w-75">
@@ -72,13 +71,9 @@ class Body extends Component {
         {cocktailData !== null ? (
           <DataLoad cocktailData={cocktailData} />
         ) : (
-          <div>
-            <img
-              alt="loader"
-              src={loaderImage}
-              style={styles}
-              hidden={!this.state.isLoading}
-            />
+          <div className="container d-flex justify-content-center">
+            <img alt="loader" style={styles} src={loaderImage} />
+            {/* hidden={!this.state.isLoading} */}
           </div>
         )}
       </div>
