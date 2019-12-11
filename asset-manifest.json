@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/cocktail/static/css/main.7b5d190d.chunk.css",
+    "main.js": "/cocktail/static/js/main.dcf8a586.chunk.js",
+    "main.js.map": "/cocktail/static/js/main.dcf8a586.chunk.js.map",
+    "runtime-main.js": "/cocktail/static/js/runtime-main.d5b97f54.js",
+    "runtime-main.js.map": "/cocktail/static/js/runtime-main.d5b97f54.js.map",
+    "static/css/2.b137606a.chunk.css": "/cocktail/static/css/2.b137606a.chunk.css",
+    "static/js/2.6b80735c.chunk.js": "/cocktail/static/js/2.6b80735c.chunk.js",
+    "static/js/2.6b80735c.chunk.js.map": "/cocktail/static/js/2.6b80735c.chunk.js.map",
+    "index.html": "/cocktail/index.html",
+    "precache-manifest.206b9733ed28e26e71ae0f6443e314e5.js": "/cocktail/precache-manifest.206b9733ed28e26e71ae0f6443e314e5.js",
+    "service-worker.js": "/cocktail/service-worker.js",
+    "static/css/2.b137606a.chunk.css.map": "/cocktail/static/css/2.b137606a.chunk.css.map",
+    "static/css/main.7b5d190d.chunk.css.map": "/cocktail/static/css/main.7b5d190d.chunk.css.map",
+    "static/js/2.6b80735c.chunk.js.LICENSE": "/cocktail/static/js/2.6b80735c.chunk.js.LICENSE",
+    "static/media/font-awesome.min.css": "/cocktail/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/loader.gif": "/cocktail/static/media/loader.85f18fbc.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d5b97f54.js",
+    "static/css/2.b137606a.chunk.css",
+    "static/js/2.6b80735c.chunk.js",
+    "static/css/main.7b5d190d.chunk.css",
+    "static/js/main.dcf8a586.chunk.js"
+  ]
+}
