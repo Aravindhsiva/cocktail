@@ -72,8 +72,12 @@ class Body extends Component {
           <DataLoad cocktailData={cocktailData} />
         ) : (
           <div className="container d-flex justify-content-center">
-            <img alt="loader" style={styles} src={loaderImage} />
-            {/* hidden={!this.state.isLoading} */}
+            <img
+              alt="loader"
+              style={styles}
+              src={loaderImage}
+              hidden={!this.state.isLoading}
+            />
           </div>
         )}
       </div>
