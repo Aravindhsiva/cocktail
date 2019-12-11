@@ -58,7 +58,7 @@ class Body extends Component {
     };
     return (
       <div className="container w-75">
-        <div className="card p-1 col-3 jumbotron m-auto">
+        <div className="card p-1 col-lg-3 col-sm-3 jumbotron m-auto">
           <button
             onClick={this.getData}
             className="btn btn-sm m-auto col-12 btn-warning font-weight-bold"

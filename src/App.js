@@ -18,7 +18,7 @@ class App extends Component {
   };
   render() {
     return (
-      <div className="container">
+      <div className="container-fluid p-4">
         <Header />
         <Body
           onChange={this.changeHandler}
