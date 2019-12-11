@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import Header from "./components/Header";
-import Form from "./components/Form";
+import Body from "./components/Body";
 import "font-awesome/css/font-awesome.min.css";
+import "./App.css";
 
 class App extends Component {
   state = {
@@ -19,7 +20,7 @@ class App extends Component {
     return (
       <div className="container">
         <Header />
-        <Form
+        <Body
           onChange={this.changeHandler}
           location={this.state.location}
           handleClick={this.handleClick}

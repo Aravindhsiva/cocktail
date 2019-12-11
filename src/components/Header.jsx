@@ -9,7 +9,15 @@ const Header = () => {
       className="card p-2 w-50 bg-primary text-center text-white"
       style={styles}
     >
-      <h3>Weather App</h3>
+      <h3>
+        <span role="img" aria-label="cocktailImg">
+          🍸
+        </span>{" "}
+        Random Cocktail App{" "}
+        <span role="img" aria-label="cocktailImg">
+          🍸
+        </span>
+      </h3>
     </div>
   );
 };
