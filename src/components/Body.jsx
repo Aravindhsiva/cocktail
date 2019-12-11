@@ -53,7 +53,8 @@ class Body extends Component {
     const { cocktailData } = this.state;
     const styles = {
       height: "300px",
-      width: "400px"
+      width: "400px",
+      marginLeft: "25%"
     };
     return (
       <div className="container w-75">
@@ -73,7 +74,6 @@ class Body extends Component {
         ) : (
           <div>
             <img
-              className="loader-image"
               alt="loader"
               src={loaderImage}
               style={styles}
